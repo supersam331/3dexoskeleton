@@ -45,7 +45,7 @@
 			<div class="cd-timeline-content">
 				<h2>check out emily's new design</h2>
 				<p>new product design of the elbow </p>
-				<img id = "testimage" src="asset/image/elbow.jpg" alt="elbow design" >
+				<img id = "testimage" src="asset/image/elbow.jpg" >
 				<span class="cd-date">July 6</span>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
