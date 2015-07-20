@@ -29,6 +29,7 @@ a {
 
 img {
   max-width: 100%;
+  display:block;
 }
 
 h1, h2 {
@@ -69,6 +70,10 @@ header h1 {
   color: white;
   font-size: 18px;
   font-size: 1.125rem;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {
+  display: block;
 }
 
 .navi{
@@ -492,8 +497,13 @@ header h1 {
   }
 }
 
-#testimage{
-  display:block;
+.flip_img{
+  -moz-transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  transform: scaleY(-1);
+  -ms-filtestimager: flipv; /*IE*/
+  filter: flipv;
 }
 
 #top{
